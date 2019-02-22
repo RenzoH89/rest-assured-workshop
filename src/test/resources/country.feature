@@ -13,4 +13,3 @@ Feature: Being able to retrieve information countries
     Given I want information about the country "XX"
     When the information about the country is retrieved
     Then the system returned status code 404
-    Then the system returned status code 404
