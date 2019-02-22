@@ -19,5 +19,4 @@ public class StepBaseData {
     public void tearDown(){
         //Can be used for tearing down data after each test
     }
-
 }

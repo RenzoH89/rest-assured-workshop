@@ -1,3 +1,4 @@
+@regression
 Feature: Being able to retrieve information about a slideshow
 
   Scenario: 1. Author and amount of slides are expected when information about sample slideshow are retrieved
