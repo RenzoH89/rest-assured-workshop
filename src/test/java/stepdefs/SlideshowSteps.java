@@ -26,4 +26,17 @@ public class SlideshowSteps {
     public void theSlideshowContainsSlides(int slides) {
         response.then().body("slideshow.slides.size()", equalTo(slides));
     }
+
+    @Then("the title of the slideshow is {string}")
+    public void theTitleOfTheSlideShowIs(String title) {
+        //TODO: Schrijf hier de code om het title element uit de JSON te valideren
+        throw new cucumber.api.PendingException();
+    }
+
+    @Then("the statuscode {int} is returned")
+    public void theStatuscodeIsReturned(int statusCode) {
+        //TODO: Schrijf hier de code de status code te controleren
+        throw new cucumber.api.PendingException();
+
+    }
 }
