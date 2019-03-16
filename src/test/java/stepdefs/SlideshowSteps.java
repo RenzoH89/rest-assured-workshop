@@ -12,13 +12,13 @@ public class SlideshowSteps {
 
     private Response response;
 
-    @When("I retrieve information about a sample slideshow")
+    @When("I retrieve information about a slideshow")
     public void iRetrieveInformationAboutASampleSlideshow() {
         response =  when().get("https://httpbin.org/json");
     }
 
-    @Then("the author {string} is returned")
-    public void theAuthorIsReturned(String author) {
+    @Then("the author of the slideshow is {string}")
+    public void theAuthorOfTheSlideshowIs(String author) {
         response.then().body("slideshow.author", equalTo(author));
     }
 
