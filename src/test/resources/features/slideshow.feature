@@ -8,7 +8,7 @@ Feature: Being able to retrieve information about a slideshow (JSON format)
 
   Scenario: 2. Information about the author of slideshow can be retrieved
     When I retrieve information about a slideshow
-    #1. Fix de onderstaande regel
+    #1. Fix de onderstaande regel (deze stap faalt momenteel)
     Then the author of the slideshow is "James"
 
   Scenario: 3. The slideshow titles of each slide are returned
