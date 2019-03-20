@@ -26,4 +26,9 @@ public class SlideshowSteps {
     public void theSlideshowContainsSlides(int slides) {
         response.then().body("slideshow.slides.size()", equalTo(slides));
     }
+
+    @Then("the system returns status code {int}")
+    public void theSystemReturnsStatusCode(int statusCode) {
+        response.then().statusCode(statusCode);
+    }
 }
