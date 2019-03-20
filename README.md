@@ -41,7 +41,7 @@ Er zijn meerdere manieren om het project te openen met IntelliJ. Belangrijk is d
 1. Kies voor de optie 'Open' als je IntelliJ opent (Welcome to IntelliJ IDEA scherm)
 2. Navigeer naar de directory waar het REST-assured project staat
 3. Selecteer binnen de directory het pom.xml bestand
-4. IntelliJ geeft aan dat de pom.xmnl een project file is. Kies als optie 'Open as Project'
+4. IntelliJ geeft aan dat de pom.xml een project file is. Kies als optie 'Open as Project'
 5. Het project wordt nu ingeladen en hoogtwaarschijnlijk mis je nog een aantal plugins. Installeer deze en herstart IntelliJ:
   * Cucumber For Java
   * Gherkin
