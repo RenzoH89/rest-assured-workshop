@@ -4,17 +4,16 @@
 
 Tijdens de workshop gaan we gebruik maken van het project https://github.com/RenzoH89/rest-assured-workshop.
 
-
 Om dit project te kunnen gebruiken dien je een aantal zaken te installeren:
 
 *	GIT (https://git-scm.com/downloads)
-*	Intellij IDEA Community Edition (2018.3) (https://www.jetbrains.com/idea/download/)
+*	Intellij IDEA Community Edition (**2018.3**) (https://www.jetbrains.com/idea/download/)
 *	Maven (https://maven.apache.org/download.cgi) (zip)
 *	Java JDK 8 (https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 De zip met Maven dien je enkel uit te pakken, de andere zaken kun je daadwerkelijk installeren. 
 
-Na de installatie moeten we nog wat omgevingsvariabelen instellen om daadwerkelijk je omgeving klaar te zetten voor het REST-Assured project. Voer hiervoor de volgende stappen uit:
+Na de installatie moeten we nog wat omgevingsvariabelen instellen om je omgeving klaar te maken voor het REST-Assured project. Voer hiervoor de volgende stappen uit (De stappen zijn gebaseerd op Windows):
 
 1.	Gebruik 'Zoeken' om te zoeken naar 'Systeem' (Configuratiescherm) en selecteer deze optie vervolgens.
 2.	Klik op de koppeling Geavanceerde systeeminstellingen.
@@ -31,7 +30,7 @@ Na de installatie moeten we nog wat omgevingsvariabelen instellen om daadwerkeli
 ## Project uitchecken en openen
 Nu alles is geinstalleerd kan het project uigecheckt worden. Dit kan je doen via GIT (maar eventueel ook door het project als zip te downloaden en uit te pakken).
 
-In het geval van GIT
+In het geval van GIT:
 1. Navigeer naar de directory waar je het project wilt uitchecken
 2. Clone het project met het onderstaande commando
   * git clone https://github.com/RenzoH89/rest-assured-workshop.git    
@@ -46,10 +45,11 @@ Er zijn meerdere manieren om het project te openen met IntelliJ. Belangrijk is d
 5. Het project wordt nu ingeladen en hoogtwaarschijnlijk mis je nog een aantal plugins. Installeer deze en herstart IntelliJ:
   * Cucumber For Java
   * Gherkin
-6. Open de terminal binnen IntellIj en voer het commando mvn clean install uit. In de terminal dient het bericht 'Build Success' te verschijnen.
+5. Zorg ervoor dat de maven plugins geladen worden: Kies eventueel voor 'Enable Auto Import'  
+6. Open de terminal binnen IntellIj en voer het commando **mvn clean install** uit. Het project wordt gebouwd en de Cucumber test gaat automatisch draaien. Op het eind zou de test geslaagd moeten zijn.
 
 ## Uitvoeren voorbeeld testcase
-Als alles gelukt is zou je nu in staat moeten zijn om de het eerste scenario uit de file 'slideshow.feature' te draaien binnen IntelliJ.
+Als alles gelukt is zou je nu ook in staat moeten zijn om de het eerste scenario uit de file 'slideshow.feature' los te draaien binnen IntelliJ.
 Het pad naar het bestand is als volgt: {directory workshop}/src/test/resources/features/slideshow.feature. Het scenario wat wij willen afspelen is als volgt:
 
 ```
