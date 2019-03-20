@@ -11,7 +11,7 @@ Feature: Being able to retrieve information about a slideshow
   Scenario: 2. The system returns user details for each user
     Given I want to retrieve the oldest set of users from the system
     When the list of users is retrieved
-    #1. Maak een then stap om de users uit de reponse in te lezen op basis de User.class
+    #1. Maak een then stap om de users uit de reponse in te lezen op basis de User klasse
     #   Valideer de elementen id, last_name en avatar.
     #   Tip: Zie de 'then' stappen uit Scenario 1 voor het omzetten van de response naar een object
     #2. Met de huidige User.class is het nog niet mogelijk om het element first-name
@@ -19,7 +19,7 @@ Feature: Being able to retrieve information about a slideshow
     #   de response ook op first_name
 
   Scenario: 3. A user can log in with an email and password
-    #3. Implementeer de code voor de onderstaande Given stap
+    #3. Implementeer de code voor de onderstaande Given stap door een Login object te creeren op basis van de Login klasse
     Given my credentials are "info@email.nl" and "123456"
     When I try to login
     Then the system grants me access
