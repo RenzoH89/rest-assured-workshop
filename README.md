@@ -37,7 +37,9 @@ In het geval van GIT
   * git clone https://github.com/RenzoH89/rest-assured-workshop.git    
  
 ## Project openen met IntelliJ
-1. Kies voor de optie 'Import Project' als je IntelliJ opent
+Er zijn meerdere manieren om het project te openen met IntelliJ. Belangrijk is dat het project als Maven project herkend gaat worden in Intellij. Hieronder een mogelijkheid:
+
+1. Kies voor de optie 'Open' als je IntelliJ opent (Welcome to IntelliJ IDEA scherm)
 2. Navigeer naar de directory waar het REST-assured project staat
 3. Selecteer binnen de directory het pom.xml bestand
 4. IntelliJ geeft aan dat de pom.xmnl een project file is. Kies als optie 'Open as Project'
