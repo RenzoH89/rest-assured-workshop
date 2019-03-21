@@ -11,13 +11,13 @@ Om dit project te kunnen gebruiken dien je een aantal zaken te installeren:
 *	Maven (https://maven.apache.org/download.cgi) (zip) 
 *	Java JDK 8 (https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
-De zip met Maven dien je enkel uit te pakken, de andere zaken kun je daadwerkelijk installeren. 
+De zip met Maven dien je enkel uit te pakken, de andere zaken kun je daadwerkelijk installeren.
 
 > Heb je de Java JDK en Maven al eerder volledig geinstalleerd en geconfigureerd. Dan kan je de onderstaande stappen overslaan en direct naar de sectie "Project uitchecken en openen" navigeren. Zo niet, volg dan de stappen hieronder.
 
 Na de installatie moeten we nog wat omgevingsvariabelen instellen om je omgeving klaar te maken voor het REST-Assured project. Voer hiervoor de volgende stappen uit (De stappen zijn gebaseerd op Windows):
 
-> Gebruik je een Mac? Bekijk dan https://stackoverflow.com/questions/21964709/how-to-set-or-change-the-default-java-jdk-version-on-os-x voor het zetten van de JAVA_HOME variabele. Voor de installatie van Maven kan je stap 1 en 2 volgen van de volgende pagina: https://www.mkyong.com/maven/install-maven-on-mac-osx/
+> Let op! Gebruik je een Mac? Bekijk dan https://stackoverflow.com/questions/21964709/how-to-set-or-change-the-default-java-jdk-version-on-os-x voor het zetten van de JAVA_HOME variabele. Voor de installatie van Maven kan je stap 1 en 2 volgen van de volgende pagina: https://www.mkyong.com/maven/install-maven-on-mac-osx/
 
 1.	Gebruik 'Zoeken' om te zoeken naar 'Systeem' (Configuratiescherm) en selecteer deze optie vervolgens.
 2.	Klik op de koppeling Geavanceerde systeeminstellingen.
@@ -34,13 +34,26 @@ Na de installatie moeten we nog wat omgevingsvariabelen instellen om je omgeving
 ---
 
 ## Project uitchecken en openen
-Nu alles is geinstalleerd kan het project uigecheckt worden. Dit kan je doen via GIT (maar eventueel ook door het project als zip te downloaden en uit te pakken).
+Nu alles is geinstalleerd kan het project uigecheckt worden. Dit kan je doen via GIT.
 
-In het geval van GIT:
+Windows:
 1. Navigeer naar de directory waar je het project wilt uitchecken
-2. Clone het project met het onderstaande commando
+2. Druk op de rechtermuisknop en kies de optie 'Git Bash here' 
+2. Clone het project vervolgens door in Git Bash het onderstaande commando uit te voeren
   * git clone https://github.com/RenzoH89/rest-assured-workshop.git    
- 
+  
+Mac:
+1. Open een nieuwe terminal en navigeer naar de directory waar je het project uit wilt checken. 
+Je kan vervolgens met het commando 'cd' navigeren naar een onderliggende map. Met 'mkdir' maak je een map aan. In het onderstaande voorbeeld maken we de map Workshop aan in de directory Documents en open we deze vervolgens:
+
+```
+cd Documents/
+mkdir Workshop
+cd Workshop
+```
+
+2. Clone het project door in je terminal het onderstaande commando uit te voeren
+  * git clone https://github.com/RenzoH89/rest-assured-workshop.git   
  ---
  
 ## Project openen met IntelliJ
