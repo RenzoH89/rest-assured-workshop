@@ -63,7 +63,7 @@ Er zijn meerdere manieren om het project te openen met IntelliJ. Belangrijk is d
   * Cucumber For Java
   * Gherkin
 5. Zorg ervoor dat de maven plugins geladen worden: Kies eventueel voor 'Enable Auto Import'  
-6. Zoek binnen IntelliJ de klasse RunCucumberIt op. En druk op de groene pijltjes om de testen te draaien:
+6. Zoek binnen IntelliJ de klasse RunCucumberIT op. En druk op de groene pijltjes om de testen te draaien:
 
 ![CucumberRunnerIT](https://github.com/RenzoH89/rest-assured-workshop/blob/master/screenshots/runCucumber.PNG)
 
