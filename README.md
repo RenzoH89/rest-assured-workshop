@@ -8,8 +8,8 @@ Om dit project te kunnen gebruiken dien je een aantal zaken te installeren:
 
 *	GIT (https://git-scm.com/downloads)
 *	Intellij IDEA Community Edition (**2018.3**) (https://www.jetbrains.com/idea/download/)
-*	Maven (https://maven.apache.org/download.cgi) (optioneel, zit al in IntelliJ) 
 *	Java JDK 8 (https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+*	Maven (https://maven.apache.org/download.cgi) (**optioneel, zit al in IntelliJ**) 
 
 > Heb je de Java JDK al eerder volledig geinstalleerd en geconfigureerd. Dan kan je de onderstaande stappen overslaan en direct naar de sectie "Project uitchecken en openen" navigeren. Zo niet, volg dan de stappen hieronder.
 
