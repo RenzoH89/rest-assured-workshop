@@ -8,12 +8,16 @@ Om dit project te kunnen gebruiken dien je een aantal zaken te installeren:
 
 *	GIT (https://git-scm.com/downloads)
 *	Intellij IDEA Community Edition (**2018.3**) (https://www.jetbrains.com/idea/download/)
-*	Maven (https://maven.apache.org/download.cgi) (zip)
+*	Maven (https://maven.apache.org/download.cgi) (zip) 
 *	Java JDK 8 (https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 De zip met Maven dien je enkel uit te pakken, de andere zaken kun je daadwerkelijk installeren. 
 
+> Heb je de Java JDK en Maven al eerder volledig geinstalleerd en geconfigureerd. Dan kan je de onderstaande stappen overslaan en direct naar de sectie "Project uitchecken en openen" navigeren. Zo niet, volg dan de stappen hieronder.
+
 Na de installatie moeten we nog wat omgevingsvariabelen instellen om je omgeving klaar te maken voor het REST-Assured project. Voer hiervoor de volgende stappen uit (De stappen zijn gebaseerd op Windows):
+
+> Gebruik je een Mac? Bekijk dan https://stackoverflow.com/questions/21964709/how-to-set-or-change-the-default-java-jdk-version-on-os-x voor het zetten van de JAVA_HOME variabele. Voor de installatie van Maven kan je stap 1 en 2 volgen van de volgende pagina: https://www.mkyong.com/maven/install-maven-on-mac-osx/
 
 1.	Gebruik 'Zoeken' om te zoeken naar 'Systeem' (Configuratiescherm) en selecteer deze optie vervolgens.
 2.	Klik op de koppeling Geavanceerde systeeminstellingen.
@@ -27,6 +31,8 @@ Na de installatie moeten we nog wat omgevingsvariabelen instellen om je omgeving
   * **mvn -v** (Er zou een bericht moeten verschijnen met 'Apache Maven 3.xxxx')
 7. Is stap 6 niet gelukt? Controleer dan nogmaals je omgevingsvariabelen.
 
+---
+
 ## Project uitchecken en openen
 Nu alles is geinstalleerd kan het project uigecheckt worden. Dit kan je doen via GIT (maar eventueel ook door het project als zip te downloaden en uit te pakken).
 
@@ -34,6 +40,8 @@ In het geval van GIT:
 1. Navigeer naar de directory waar je het project wilt uitchecken
 2. Clone het project met het onderstaande commando
   * git clone https://github.com/RenzoH89/rest-assured-workshop.git    
+ 
+ ---
  
 ## Project openen met IntelliJ
 Er zijn meerdere manieren om het project te openen met IntelliJ. Belangrijk is dat het project als Maven project herkend gaat worden in Intellij. Hieronder een mogelijkheid:
@@ -47,6 +55,8 @@ Er zijn meerdere manieren om het project te openen met IntelliJ. Belangrijk is d
   * Gherkin
 5. Zorg ervoor dat de maven plugins geladen worden: Kies eventueel voor 'Enable Auto Import'  
 6. Open de terminal binnen IntellIj en voer het commando **mvn clean install** uit. Het project wordt gebouwd en de Cucumber test gaat automatisch draaien. Op het eind zou de test geslaagd moeten zijn.
+
+---
 
 ## Uitvoeren voorbeeld testcase
 Als alles gelukt is zou je nu ook in staat moeten zijn om de het eerste scenario uit de file 'slideshow.feature' los te draaien binnen IntelliJ.
