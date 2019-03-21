@@ -34,13 +34,13 @@ Na de installatie moeten we nog wat omgevingsvariabelen instellen om je omgeving
 ---
 
 ## Project uitchecken en openen
-Nu alles is geinstalleerd kan het project uigecheckt worden. Dit kan je doen via GIT.
+Nu alles is geinstalleerd kan het project uigecheckt worden. Dit kun je doen via GIT.
 
 Windows:
 1. Navigeer naar de directory waar je het project wilt uitchecken
 2. Druk op de rechtermuisknop en kies de optie 'Git Bash here' 
 2. Clone het project vervolgens door in Git Bash het onderstaande commando uit te voeren
-  * git clone https://github.com/RenzoH89/rest-assured-workshop.git    
+* ``` git clone https://github.com/RenzoH89/rest-assured-workshop.git ``` 
   
 Mac:
 1. Open een nieuwe terminal en navigeer naar de directory waar je het project uit wilt checken. 
@@ -52,8 +52,8 @@ mkdir Workshop
 cd Workshop
 ```
 
-2. Clone het project door in je terminal het onderstaande commando uit te voeren
-  * git clone https://github.com/RenzoH89/rest-assured-workshop.git   
+2. Clone het project door in je terminal het onderstaande commando uit te voeren:
+* ``` git clone https://github.com/RenzoH89/rest-assured-workshop.git ```   
  ---
  
 ## Project openen met IntelliJ
