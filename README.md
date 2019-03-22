@@ -30,7 +30,7 @@ Na de installatie moeten we nog een omgevingsvariabele instellen om je omgeving 
 ---
 
 ## Project uitchecken en openen
-Nu alles is geinstalleerd kan het project uigecheckt worden. Dit kun je doen via GIT.
+Nu alles is geinstalleerd kan het project uitgecheckt worden. Dit kun je doen via GIT.
 
 Windows:
 1. Navigeer naar de directory waar je het project wilt uitchecken
