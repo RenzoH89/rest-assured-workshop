@@ -22,7 +22,7 @@ Na de installatie moeten we nog een omgevingsvariabele instellen om je omgeving 
 3.	Klik op Omgevingsvariabelen.
 4.	Voeg de volgende systeemvariabele toe afhankelijk van de locatie van je installatie. Vervang de onderstaande XXXX'en met de daadwerkelijke versie:
   * JAVA_HOME =  C:\Program Files \Java\jdkXXXX
-5.	breid de variable PATH uit (onder systeemvariabelen) met %JAVA_HOME%\bin;
+5.	bereid de variable PATH uit (onder systeemvariabelen) met %JAVA_HOME%\bin;
 6.	Open nu een nieuwe opdracht prompt of terminal. Voer de volgende commando’s uit
   * **java -version** (Er zou een bericht moeten verschijnen met 'java version 1.8.xxx')
 7. Is stap 6 niet gelukt? Controleer dan nogmaals je omgevingsvariabelen.
@@ -55,9 +55,10 @@ cd Workshop
 ## Project openen met IntelliJ
 Er zijn meerdere manieren om het project te openen met IntelliJ. Belangrijk is dat het project als Maven project herkend gaat worden in Intellij. Hieronder een mogelijkheid:
 
-1. Kies voor de optie 'Open' als je IntelliJ opent (Welcome to IntelliJ IDEA scherm)
+1. Nadat je Intellij hebt geopend dien je de optie 'Open' te kiezen (Welcome to IntelliJ IDEA scherm)
 2. Navigeer naar de directory waar het REST-assured project staat
 3. Selecteer binnen de directory het pom.xml bestand
+![OpenProject](https://github.com/RenzoH89/rest-assured-workshop/blob/master/screenshots/openProject.PNG)
 4. IntelliJ geeft aan dat de pom.xml een project file is. Kies als optie 'Open as Project'
 5. Het project wordt nu ingeladen en hoogtwaarschijnlijk mis je nog een aantal plugins. Installeer deze en herstart IntelliJ:
   * Cucumber For Java
