@@ -4,7 +4,7 @@
 
 Tijdens de workshop gaan we gebruik maken van het project https://github.com/RenzoH89/rest-assured-workshop.
 
-Om dit project te kunnen gebruiken dien je een aantal zaken te installeren:
+Voor dit project dient de volgende software geïnstalleerd te zijn:
 
 *	GIT (https://git-scm.com/downloads)
 *	Intellij IDEA Community Edition (**2018.3**) (https://www.jetbrains.com/idea/download/)
@@ -13,16 +13,16 @@ Om dit project te kunnen gebruiken dien je een aantal zaken te installeren:
 
 ### Extra informatie voor GIT (Windows) installatie
 
-Het is bij de GIT installatie op **Windows** handig als als je de optie 'Git Bash here' aangevinkt houdt. Deze optie gaan we later gebruiken bij het uitchecken van het project:
+Het is bij de GIT installatie op **Windows** handig om de optie 'Git Bash here' aangevinkt te houden. Deze optie gaan we later gebruiken bij het uitchecken van het project:
 
 ![GitBash](https://github.com/RenzoH89/rest-assured-workshop/blob/master/screenshots/gitbash.PNG)
 
 Kies verderop in de installatie bij het scherm 'Adjusting your PATH environment' voor de optie 'Use GIT from Git Bash only' of voor de default optie 'Git from the command line and also from 3rd-party software'
 
 ### Instructies bij installatie Java JDK 8
-> Heb je de Java JDK al eerder volledig geinstalleerd en geconfigureerd. Dan kan je de onderstaande stappen overslaan en direct naar de sectie "Project uitchecken en openen" navigeren. Zo niet, volg dan de stappen hieronder.
+> Heb je de Java JDK al eerder volledig geinstalleerd en geconfigureerd, dan kan je de onderstaande stappen overslaan en direct naar de sectie "Project uitchecken en openen" navigeren. Zo niet, volg dan de stappen hieronder.
 
-Na de installatie moeten we nog een omgevingsvariabele instellen om je omgeving klaar te maken voor het REST-Assured project. Voer hiervoor de volgende stappen uit (De stappen zijn gebaseerd op Windows):
+Na de installatie van de JDK moeten we nog een omgevingsvariabele instellen om je machine klaar te maken voor het REST-Assured project. Voer hiervoor de volgende stappen uit (De stappen zijn gebaseerd op Windows):
 
 > Let op! Gebruik je een Mac? Bekijk dan https://stackoverflow.com/questions/21964709/how-to-set-or-change-the-default-java-jdk-version-on-os-x voor het zetten van de JAVA_HOME variabele.
 
