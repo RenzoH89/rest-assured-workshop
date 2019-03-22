@@ -32,7 +32,7 @@ Na de installatie moeten we nog een omgevingsvariabele instellen om je omgeving 
 4.	Voeg de volgende systeemvariabele toe afhankelijk van de locatie van je installatie. Vervang de onderstaande XXXX'en met de daadwerkelijke versie:
   * JAVA_HOME =  C:\Program Files \Java\jdkXXXX
 5.	bereid de variable PATH uit (onder systeemvariabelen) met %JAVA_HOME%\bin;
-6.	Open nu een nieuwe opdracht prompt of terminal. Voer de volgende commando’s uit
+6.	Open nu een **nieuwe** opdracht prompt of terminal. Voer de volgende commando’s uit
   * **java -version** (Er zou een bericht moeten verschijnen met 'java version 1.8.xxx')
 7. Is stap 6 niet gelukt? Controleer dan nogmaals je omgevingsvariabelen.
 
