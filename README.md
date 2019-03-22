@@ -11,6 +11,15 @@ Om dit project te kunnen gebruiken dien je een aantal zaken te installeren:
 *	Java JDK 8 (https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 *	Maven (https://maven.apache.org/download.cgi) (**optioneel, zit al in IntelliJ**) 
 
+### Extra informatie voor GIT (Windows) installatie
+
+Het is bij de GIT installatie op **Windows** handig als als je de optie 'Git Bash here' aangevinkt houdt. Deze optie gaan we later gebruiken bij het uitchecken van het project:
+
+![GitBash](https://github.com/RenzoH89/rest-assured-workshop/blob/master/screenshots/gitbash.PNG)
+
+Kies verderop in de installatie bij het scherm 'Adjusting your PATH environment' voor de optie 'Use GIT from Git Bash only' of voor de default optie 'Git from the command line and also from 3rd-party software'
+
+### Instructies bij installatie Java JDK 8
 > Heb je de Java JDK al eerder volledig geinstalleerd en geconfigureerd. Dan kan je de onderstaande stappen overslaan en direct naar de sectie "Project uitchecken en openen" navigeren. Zo niet, volg dan de stappen hieronder.
 
 Na de installatie moeten we nog een omgevingsvariabele instellen om je omgeving klaar te maken voor het REST-Assured project. Voer hiervoor de volgende stappen uit (De stappen zijn gebaseerd op Windows):
@@ -34,8 +43,8 @@ Nu alles is geinstalleerd kan het project uitgecheckt worden. Dit kun je doen vi
 
 Windows:
 1. Navigeer naar de directory waar je het project wilt uitchecken
-2. Druk op de rechtermuisknop en kies de optie 'Git Bash here' 
-2. Clone het project vervolgens door in Git Bash het onderstaande commando uit te voeren
+2. Druk op de rechtermuisknop en kies de optie 'Git Bash here'
+3. Clone het project vervolgens door in Git Bash het onderstaande commando uit te voeren
 * ``` git clone https://github.com/RenzoH89/rest-assured-workshop.git ``` 
   
 Mac:
