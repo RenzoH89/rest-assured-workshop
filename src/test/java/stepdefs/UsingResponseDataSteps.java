@@ -41,7 +41,7 @@ public class UsingResponseDataSteps {
     }
 
     //    Scenario 3
-    @When("I retrieve information abo   ut the author of the first blog post")
+    @When("I retrieve information about the author of the first blog post")
     public void iRetreiveUserInformation() {
 //        String postsUID =  posts.jsonPath().getString("userId");
 //        System.out.println("postsUID=" + postsUID);
