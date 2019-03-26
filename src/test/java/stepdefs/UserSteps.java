@@ -27,7 +27,8 @@ public class UserSteps {
 
     @When("the user is created in the system")
     public void theUserIsCreatedInTheSystem() {
-        response = request.when().post("https://reqres.in/api/users");
+        //Opdracht: Post de request naar https://reqres.in/api/users en sla de response op in de response variabele
+        throw new cucumber.api.PendingException();
     }
 
     @Then("an id and creation date for this user is returned")
