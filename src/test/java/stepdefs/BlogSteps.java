@@ -7,18 +7,15 @@ import io.restassured.response.Response;
 import static io.restassured.RestAssured.when;
 import static org.hamcrest.Matchers.containsString;
 
-public class UsingResponseDataSteps {
+public class BlogSteps {
 
     private Response posts;
     private Response users;
-    ;
 
     @When("I retrieve information about the blog posts")
     public void iRetrieveInformationAboutBlogPosts() {
         // perhaps visit the below website in your browser to see that this api does
         posts = when().get("https://jsonplaceholder.typicode.com/posts");
-        String postsString = posts.asString();
-        System.out.println("posts " + postsString);
     }
 
     @Then("at least one post with title {string} is returned")
@@ -31,8 +28,6 @@ public class UsingResponseDataSteps {
     public void iRetrieveInformationAboutTheUsers() {
         // perhaps visit the below website in your browser to see that this api does
         users = when().get("https://jsonplaceholder.typicode.com/users");
-        String usersString = users.asString();
-        System.out.println("users " + usersString);
     }
 
     @Then("at least one user with username {string} is returned")
@@ -40,12 +35,11 @@ public class UsingResponseDataSteps {
         users.then().body(containsString(username));
     }
 
-    //    Scenario 3
     @When("I retrieve information about the author of the first blog post")
-    public void iRetreiveUserInformation() {
-//        String postsUID =  posts.jsonPath().getString("userId");
-//        System.out.println("postsUID=" + postsUID);
-//        userid[0]
-//        String specifcUserInfo =  when().get("https://jsonplaceholder.typicode.com/users/1");
+    public void iRetrieveUserInformationFromFirstBlogPost() {
+        //Zoek op basis van de eerste post uit de response de bijbehorende met de volgende url:
+        //https://jsonplaceholder.typicode.com/users/{idOfUser} waarbij {idOfUser}
+        // vervangen dient te worden met het id van de user uit de vorige response.
+        throw new cucumber.api.PendingException();
     }
 }
