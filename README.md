@@ -94,7 +94,7 @@ Het pad naar het bestand is als volgt: {directory workshop}/src/test/resources/f
 ```
 
 Klik binnen IntellIJ met je rechtermuisknop op deze regels, en kies de optie "Run 'Scenario: 1. The retrieved slideshow should contain 2 slides'". De test zou moeten slagen.
-  
+**Lukt dit niet? Controleer dan of de plugin SubStep actief is binnen IntellIJ. Schakel deze uit!**
 
 
 
