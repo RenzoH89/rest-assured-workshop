@@ -25,7 +25,7 @@ public class UserSteps {
 
     @Given("my credentials are {string} and {string}")
     public void myCredentialsAreAnd(String email, String password) {
-        //Opdracht: Maak gebruik van de Login class het request bericht samen te stellen ob basis van een object
+        //Opdracht: Maak gebruik van de Login class het request bericht samen te stellen op basis van een object
         throw new cucumber.api.PendingException();
     }
 
