@@ -16,8 +16,8 @@ public class ExchangeRateSteps {
     private RequestSpecification request;
     private Response response;
 
-    @Given("I want to compare the exchange rate of {string} against {string} at {string}")
-    public void iWantToCompareTheExchangeRateOfToAgainst(String currencyToCheck, String baseCurrency, String date) {
+    @Given("I want to compare the rate of {string} against {string} at {string}")
+    public void iWantToCompareTheRateOfToAgainst(String currencyToCheck, String baseCurrency, String date) {
         /*
          * Opdracht: Het request wat we gaan versturen heeft meerdere parameters nodig (2 query Parameters en een Path parameter):
          * currencyToCheck --> queryParameter (symbols)
