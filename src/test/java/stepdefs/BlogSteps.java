@@ -6,6 +6,7 @@ import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.when;
 import static org.hamcrest.Matchers.containsString;
+import static org.hamcrest.Matchers.hasItem;
 
 public class BlogSteps {
 
@@ -20,7 +21,7 @@ public class BlogSteps {
 
     @Then("at least one post with title {string} is returned")
     public void thePostWithTitleIsReturned(String title) {
-        posts.then().body(containsString(title));
+        posts.then().body("title", hasItem(containsString(title)));
     }
 
 
@@ -32,7 +33,7 @@ public class BlogSteps {
 
     @Then("at least one user with username {string} is returned")
     public void theUserWithUsernameIsReturned(String username) {
-        users.then().body(containsString(username));
+        users.then().body("username", hasItem(containsString(username)));
     }
 
     @When("I retrieve information about the author of the first blog post")

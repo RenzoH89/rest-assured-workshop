@@ -15,5 +15,3 @@ Feature: Retrieve information about blog posts and users
     Then at least one user with username "Bret" is returned
     #2. Maak een nieuwe stepdef methode aan in de BlogSteps klasse.
     And the user lives in the city "Gwenborough"
-
-
