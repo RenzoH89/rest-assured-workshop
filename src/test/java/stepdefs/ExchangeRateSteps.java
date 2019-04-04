@@ -30,7 +30,7 @@ public class ExchangeRateSteps {
 
     @When("the information about the exchange rate is retrieved for this date")
     public void theInformationAboutTheExchangeRateIsRetrievedForThisDate() {
-        response = request.get("https://api.exchangeratesapi.io/{date}");
+        response = request.when().get("https://api.exchangeratesapi.io/{date}");
     }
 
     @Then("the rate of {string} is {double}")
