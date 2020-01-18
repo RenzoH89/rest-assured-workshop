@@ -73,7 +73,7 @@ Er zijn meerdere manieren om het project te openen met IntelliJ. Belangrijk is d
   * Cucumber For Java
   * Gherkin
 5. Zorg ervoor dat de maven plugins geladen worden: Kies eventueel voor 'Enable Auto Import'
-6. Zoek binnen IntelliJ de klasse RunCucumberIT op. En druk op de groene pijltjes om de testen te draaien:
+6. Zoek binnen IntelliJ de klasse RunCucumberIT op binnen opdracht-0: {directory workshop}/opdracht-0/src/test/resources/features/slideshow.feature. En druk op de groene pijltjes om de testen te draaien:
 
 ![CucumberRunnerIT](https://github.com/RenzoH89/rest-assured-workshop/blob/master/screenshots/runCucumber.PNG)
 
@@ -85,13 +85,14 @@ Er zijn meerdere manieren om het project te openen met IntelliJ. Belangrijk is d
 
 ## Uitvoeren voorbeeld testcase
 Als alles gelukt is zou je nu ook in staat moeten zijn om de het eerste scenario uit de file 'slideshow.feature' los te draaien binnen IntelliJ.
-Het pad naar het bestand is als volgt: {directory workshop}/src/test/resources/features/slideshow.feature. Het scenario wat wij willen afspelen is als volgt:
+Het pad naar het bestand is als volgt: {directory workshop}/opdracht-0/src/test/resources/features/slideshow.feature. Het scenario wat wij willen afspelen is als volgt:
 
 ```
-  Scenario: 1. The retrieved slideshow should contain 2 slides
+  Scenario: 1. The author and 2 slides are returned
     When I retrieve information about a slideshow
+    Then the author of the slideshow is "Yours Truly"
     And the slideshow contains 2 slides
 ```
 
-Klik binnen IntellIJ met je rechtermuisknop op deze regels, en kies de optie "Run 'Scenario: 1. The retrieved slideshow should contain 2 slides'". De test zou moeten slagen.
+Klik binnen IntellIJ met je rechtermuisknop op deze regels, en kies de optie "Run 'The author and 2 slides are returned'". De test zou moeten slagen.
 **Lukt dit niet? Controleer dan of de plugin SubStep actief is binnen IntellIJ. Schakel deze uit!**
