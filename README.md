@@ -7,7 +7,7 @@ Tijdens de workshop gaan we gebruik maken van het project https://github.com/Ren
 Voor dit project dient de volgende software geïnstalleerd te zijn:
 
 *	GIT (https://git-scm.com/downloads)
-*	Intellij IDEA Community Edition (**2018.3**) (https://www.jetbrains.com/idea/download/)
+*	Intellij IDEA Community Edition (**2018.3 of hoger**) (https://www.jetbrains.com/idea/download/)
 *	Java JDK 8 (https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 *	Maven (https://maven.apache.org/download.cgi) (**optioneel, zit al in IntelliJ**)
 
