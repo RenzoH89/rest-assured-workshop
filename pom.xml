@@ -13,8 +13,6 @@
         <cucumber.version>4.2.0</cucumber.version>
         <rest.assured.version>4.1.2</rest.assured.version>
         <jackson.version>2.10.1</jackson.version>
-
-
     </properties>
 
     <build>
@@ -44,13 +42,13 @@
         </plugins>
     </build>
     <modules>
+        <module>opdracht-0</module>
         <module>opdracht-1</module>
         <module>opdracht-2</module>
         <module>opdracht-3</module>
         <module>opdracht-4</module>
         <module>opdracht-5</module>
         <module>opdracht-6</module>
-        <module>opdracht-0</module>
     </modules>
 
     <dependencies>
