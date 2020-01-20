@@ -20,6 +20,6 @@ Feature: Being able to retrieve information about a slideshow
 
   Scenario: 3. A user can log in with an email and password
     #3. Implementeer de code voor de onderstaande Given stap door een Login object te creeren op basis van de Login klasse
-    Given my credentials are "info@email.nl" and "123456"
+    Given my credentials are "eve.holt@reqres.in" and "123456"
     When I try to login
     Then the system grants me access
